@@ -1,0 +1,2 @@
+# Prevent Did you mean to set reuse=True in VarScope? in Jupyter Notebook
+tf.reset_default_graph()
