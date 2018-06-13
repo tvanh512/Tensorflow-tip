@@ -22,4 +22,7 @@ Typical use case:
       opts = tf.profiler.ProfileOptionBuilder.time_and_memory()
       
       # Then finally
-      profiler.profile_operations(options=opts)    
+      profiler.profile_operations(options=opts)
+      
+Note in the website it's option_builder.ProfileOptionBuilder.time_and_memory(),
+which should be tf.profiler.ProfileOptionBuilder.time_and_memory()
